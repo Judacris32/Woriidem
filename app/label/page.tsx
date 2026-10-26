@@ -82,7 +82,7 @@ export default function LabelPage() {
             </Reveal>
           </div>
           <Reveal className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[28px] lg:max-w-none">
-            <Image src="/images/stage-vest.jpg" alt="Woriidem laughing on a white porch" fill sizes="(min-width: 1024px) 480px, 90vw" className="object-cover object-[50%_30%]" />
+            <Image src="/images/portrait-porch-smile.jpg" alt="Woriidem laughing on a white porch" fill sizes="(min-width: 1024px) 480px, 90vw" className="object-cover object-[50%_30%]" />
           </Reveal>
           </div>
         </div>

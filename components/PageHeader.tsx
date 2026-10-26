@@ -21,8 +21,20 @@ type Props = {
 const ease = [0.22, 1, 0.36, 1] as const;
 
 /** Art-directed picture: a landscape photo on desktop, a portrait one on phones */
-export function ArtDirectedImage({ desktop, mobile, alt, className }: { desktop: Img; mobile: Img; alt: string; className?: string }) {
-  const common = { alt, sizes: "100vw", priority: true, quality: 82 };
+export function ArtDirectedImage({
+  desktop,
+  mobile,
+  alt,
+  className,
+  priority = true,
+}: {
+  desktop: Img;
+  mobile: Img;
+  alt: string;
+  className?: string;
+  priority?: boolean;
+}) {
+  const common = { alt, sizes: "100vw", priority, quality: 82 };
   const {
     props: { srcSet: desktopSet },
   } = getImageProps({ ...common, src: desktop.src, width: desktop.w, height: desktop.h });

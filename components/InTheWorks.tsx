@@ -134,7 +134,6 @@ export function InTheWorks() {
                 <p className="relative text-sm text-white/80">
                   New demos and releases land here first. <span className="font-semibold text-white">soundcloud.com/worii_dem1_ng</span>
                 </p>
-                
               </a>
             </Reveal>
           </div>

@@ -113,13 +113,13 @@ export default function PressPage() {
                 Need a bio for an <Hl>article?</Hl>
               </>
             }
-            intro="Here’s a short bio you’re welcome to use as it is. For high-resolution photos, interviews or anything else, get in touch and I’ll sort you out."
+            intro="Journalists, bloggers and event promoters can copy this short bio and use it as it is. For photos or an interview, send me a message."
           />
           <div className="mx-auto mt-14 max-w-3xl lg:mt-16">
           <Reveal delay={0.1}>
             <div className="rounded-[28px] border border-line bg-surface p-7 sm:p-9">
               <div className="flex flex-wrap items-center justify-between gap-4">
-                <h3 className="text-lg font-bold tracking-tight">Short bio</h3>
+                <h3 className="text-lg font-bold tracking-tight">Short bio, ready to use</h3>
                 <CopyButton text={shortBio} />
               </div>
               <p className="text-justified mt-5 leading-[1.8] text-muted">{shortBio}</p>
